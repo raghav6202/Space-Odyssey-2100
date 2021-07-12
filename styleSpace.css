@@ -1,0 +1,44 @@
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body
+{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("https://images.unsplash.com/photo-1540449078594-94d6173856c0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    color: white;
+}
+
+header
+{
+
+    padding: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+   
+    text-align: center;
+    background-color:black;
+    margin-bottom: 1rem;
+   
+    font-family: 'Aldrich', sans-serif;
+  
+}
+
+#heading
+{
+
+    
+    /* color: pink; */
+    font-size: 2rem;
+  
+    padding: 2rem;
+    display: flex;
+    
+}
+
+section
+{
+
+    text-align: center;
+}
