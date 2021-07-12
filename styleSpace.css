@@ -2,15 +2,29 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root
+{
+    --primary-color:
+}
+
 body
 {
     font-family: 'Roboto Mono', monospace;
-    background-image: url("https://images.unsplash.com/photo-1540449078594-94d6173856c0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-    background-size: cover;
-    color: white;
+    
+
+
 }
 
+.tabs
+{
+    background-color: #A7F815;
+   
+}
+    
+
 header
+
 {
 
     padding: 3rem;
@@ -37,8 +51,24 @@ header
     
 }
 
-section
+.main-class
 {
+  text-align: center;
+  
+}
 
-    text-align: center;
+#section1
+{
+    background-image: url("https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+}
+
+#section2
+{
+    background-image: url("https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+background-size: cover;
+
+
+
+
 }
