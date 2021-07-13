@@ -5,12 +5,13 @@
 
 :root
 {
-    --primary-color:
+    --primary-color: black;
 }
 
 body
 {
     font-family: 'Roboto Mono', monospace;
+    background-color: #A7F815;
     
 
 
@@ -32,7 +33,7 @@ header
     padding-right: 0.5rem;
    
     text-align: center;
-    background-color:black;
+    background-color:var(--primary-color);
     margin-bottom: 1rem;
    
     font-family: 'Aldrich', sans-serif;
@@ -50,10 +51,21 @@ header
     display: flex;
     
 }
+.navbar
+{
+    background-color: var(--primary-color);
+}
+
+.tabs
+{
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
 
 .main-class
 {
   text-align: center;
+  background-color: #A7F815;
   
 }
 
